@@ -1,6 +1,6 @@
 {
   "name": "hello-guard",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Minimal Tachyon example plugin — prints a greeting on session start (claude + codex).",
   "runtimes": ["claude", "codex"],
   "blocks": { "claude": "claude/", "codex": "codex/" }
