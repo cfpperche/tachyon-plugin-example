@@ -1,7 +1,7 @@
 {
   "name": "hello-guard",
-  "version": "3.0.0",
-  "description": "Minimal Tachyon example plugin — a SessionStart greeting hook (claude + codex) plus a demo skill.",
+  "version": "4.0.0",
+  "description": "Minimal Tachyon example plugin — a SessionStart greeting hook (claude + codex), a demo skill, and demo MCP servers (stdio + http).",
   "runtimes": ["claude", "codex"],
   "blocks": { "claude": "claude/", "codex": "codex/" }
 }

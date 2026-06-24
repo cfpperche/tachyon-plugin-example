@@ -1,0 +1,17 @@
+{
+  "servers": [
+    {
+      "name": "hello-db",
+      "transport": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-everything"],
+      "env": { "DEMO_TOKEN": "${DEMO_TOKEN}" }
+    },
+    {
+      "name": "hello-remote",
+      "transport": "http",
+      "url": "https://mcp.example.com/v1",
+      "headers": { "Authorization": "Bearer ${DEMO_TOKEN}" }
+    }
+  ]
+}
